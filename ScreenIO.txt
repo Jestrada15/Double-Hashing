@@ -1,0 +1,225 @@
+/*********************************************
+ *  NAME:		Keval Varia
+ *  CLASS;		Data Structures
+ *  ASSIGNMENT  #7 - Double Hashing
+ *********************************************/
+
+
+In this assignment, we will use a MAP
+to develop a double hashing algorithm
+which will add, remove and print keys
+and their values. They will be stored
+in a struct which also has contructors
+that assign the initial values to null.
+
+Adding:
+Laguna Niguel,
+Mission Viejo,
+San Clemente,
+& Irvine
+
+Key     Value
+----------------
+0  NULL
+0  NULL
+0  NULL
+0  NULL
+0  NULL
+0  NULL
+0  NULL
+0  NULL
+0  NULL
+0  NULL
+0  NULL
+0  NULL
+41 Mission Viejo
+0  NULL
+0  NULL
+44 Irvine
+0  NULL
+0  NULL
+18 Laguna Niguel
+0  NULL
+0  NULL
+0  NULL
+22 San Clemente
+0  NULL
+0  NULL
+0  NULL
+0  NULL
+0  NULL
+0  NULL
+
+
+Removing:
+Mission Viejo
+
+Adding:
+Lake Forest,
+San Diego,
+& Anahiem
+
+Key     Value
+----------------
+58 Lake Forest
+0  NULL
+0  NULL
+32 San Diego
+0  NULL
+0  NULL
+0  NULL
+0  NULL
+0  NULL
+0  NULL
+0  NULL
+0  NULL
+0  NULL
+0  NULL
+0  NULL
+44 Irvine
+0  NULL
+0  NULL
+18 Laguna Niguel
+0  NULL
+49 Anahiem
+0  NULL
+22 San Clemente
+0  NULL
+0  NULL
+0  NULL
+0  NULL
+0  NULL
+0  NULL
+
+
+Removing:
+Lake Forest
+
+Adding:
+Los Angeles,
+Orange,
+Palms Springs,
+& Riverside
+
+Key     Value
+----------------
+0  NULL
+0  NULL
+0  NULL
+32 San Diego
+0  NULL
+0  NULL
+0  NULL
+0  NULL
+0  NULL
+0  NULL
+0  NULL
+0  NULL
+41 Riverside
+0  NULL
+0  NULL
+44 Irvine
+0  NULL
+17 Orange
+18 Laguna Niguel
+77 Palms Springs
+49 Anahiem
+0  NULL
+22 San Clemente
+0  NULL
+0  NULL
+0  NULL
+0  NULL
+73 Los Angeles
+0  NULL
+
+
+Removing:
+Los Angeles
+
+Adding:
+Brea,
+Santa Ana,
+Tustin,
+Oceanside,
+La Jolla,
+Del Mar,
+Aliso Viejo,
+& Laguna Beach
+
+Key     Value
+----------------
+0  NULL
+0  NULL
+60 Santa Ana
+32 San Diego
+0  NULL
+19 Brea
+35 Tustin
+0  NULL
+0  NULL
+0  NULL
+0  NULL
+11 La Jolla
+41 Riverside
+0  NULL
+0  NULL
+44 Irvine
+0  NULL
+17 Orange
+18 Del Mar
+77 Palms Springs
+49 Laguna Beach
+0  NULL
+22 Aliso Viejo
+52 Oceanside
+0  NULL
+0  NULL
+0  NULL
+0  NULL
+0  NULL
+
+
+Removing:
+Riverside
+
+Adding:
+Vista,
+San Diego,
+San Juan,
+Dana Point,
+& El Segundo
+
+Key     Value
+----------------
+29 Dana Point
+88 El Segundo
+60 Santa Ana
+32 San Diego
+0  NULL
+19 Brea
+35 Tustin
+0  NULL
+0  NULL
+0  NULL
+0  NULL
+11 La Jolla
+99 San Juan
+42 Vista
+0  NULL
+44 Irvine
+0  NULL
+17 Orange
+18 Del Mar
+77 Palms Springs
+49 San Diego
+0  NULL
+22 Aliso Viejo
+52 Oceanside
+0  NULL
+0  NULL
+0  NULL
+0  NULL
+0  NULL
+
+
