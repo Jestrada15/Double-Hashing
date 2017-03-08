@@ -4,7 +4,6 @@
  *  ASSIGNMENT  #7 - Double Hashing
  *********************************************/
 
-
 #ifndef DOUBLEHASHING_H_
 #define DOUBLEHASHING_H_
 #include <iostream>
@@ -16,7 +15,7 @@ class DoubleHashing {
 
 public:
 	//Variable: Size of the array
-	static const int size = 29;
+	static const int size = 31;
 
 	//Constructor
 	DoubleHashing(){

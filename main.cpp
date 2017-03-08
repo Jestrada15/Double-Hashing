@@ -10,12 +10,10 @@ int main(){
 
 	//Program Description
 	cout << "\n"
-			"In this assignment, we will use a MAP\n"
-			"to develop a double hashing algorithm\n"
-			"which will add, remove and print keys\n"
-			"and their values. They will be stored\n"
-			"in a struct which also has contructors\n"
-			"that assign the initial values to null.\n\n";
+			"In this assignment, we will use a MAP to develop a double hashing\n"
+			"algorithm which will add, remove and print keys and their values.\n"
+			"They will be stored in a struct which also has contructors that\n"
+			"assign the initial values to null.\n\n";
 
 	//Variable Declaration
 	DoubleHashing<string> DH;
@@ -61,17 +59,17 @@ int main(){
 			"Orange,\nPalms Springs,\n"
 			"& Riverside\n\n";
 
-	DH.insert(73, "Los Angeles");		//Added Los Angeles
+	DH.insert(31, "Los Angeles");		//Added Los Angeles
 	DH.insert(17, "Orange");			//Added Orange
-	DH.insert(77, "Palms Springs");		//Added Palms Springs
+	DH.insert(72, "Palms Springs");		//Added Palms Springs
 	DH.insert(41, "Riverside");			//Added Riverside
 	DH.Print();							//Printing current values
 
 
 	//Removing based on key
 	cout << "Removing:\n"
-			"Los Angeles\n\n";
-	DH.remove(73);						//Removing Los Angeles
+			"nothing\n\n";
+	DH.remove(73);						//Removing nothing
 
 
 	//Adding Values
@@ -84,7 +82,7 @@ int main(){
 	DH.insert(19, "Brea");				//Added Brea
 	DH.insert(60, "Santa Ana");			//Added Santa Ana
 	DH.insert(35, "Tustin");			//Added Tustin
-	DH.insert(52, "Oceanside");			//Added Oceanside
+	DH.insert(103, "Oceanside");			//Added Oceanside
 	DH.insert(11, "La Jolla");			//Added La Jolla
 	DH.insert(18, "Del Mar");			//Added Del Mar
 	DH.insert(22, "Aliso Viejo");		//Added Aliso Viejo
@@ -108,8 +106,9 @@ int main(){
 	DH.insert(99, "San Juan");			//Added San Juan
 	DH.insert(29, "Dana Point");		//Added Dana Point
 	DH.insert(88, "El Segundo");		//Added El Segundo
+	DH.insert(41, "San Clemente");		//Added San Clemente
+	DH.insert(62, "Laguna Hills");		//Added Laguna Hills
 	DH.Print();							//Printing current values
-
 
 	return 0;
 }
